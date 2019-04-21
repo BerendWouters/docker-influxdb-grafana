@@ -18,7 +18,7 @@ telegraf:
   links:
     - influxdb
   volumes:
-    - /home/bered/docker/telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+    - /home/berend/docker/telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
 
 grafana:
   image: grafana/grafana:latest
